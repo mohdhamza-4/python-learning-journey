@@ -42,3 +42,85 @@
 # fruits.extend(["Grapes","Banana"])
 # print(fruits)
 
+# REMOVING ELEMENTS FROM THE LIST :-
+
+# remove:-Removes a particular value.
+# fruits = ["apple", "banana", "mango"]
+# fruits.remove("banana")
+# print(fruits)
+
+# # Pop :- Removes an element using its index and returns that element and If you don't provide an index, pop() removes the last element.
+# fruits = ["apple", "banana", "mango"]
+# fruits.pop(1)
+# print(fruits)
+
+# # Del:-Deletes an element or a portion of the list.
+
+# numbers = [10, 20, 30, 40]
+# del numbers[1]
+# print(numbers)
+
+
+# # Clear:- Removes all elements.
+
+# numbers = [10, 20, 30]
+# numbers.clear()
+# print(numbers)
+
+# =================================================================================================
+# # All important List methods
+# # ==========================================================
+# #   Method	                       Purpose
+# # ==========================================================
+# #   append()	                     Add one element
+# #   extend()	                     Add multiple elements
+# #   insert()	                     Insert at an index
+# #   remove()	                     Remove a particular value
+# #   pop()	                         Remove and return an element
+# #   clear()	                       Remove all elements
+# #   index()	                       Find the index of a value
+# #   count()	                       Count occurrences
+# #   sort()	                       Sort the list
+# #   reverse()	                     Reverse the list
+# #   copy()	                       Create a shallow copy
+
+# Examples:-
+
+# numbers = [10, 20, 30, 20, 40]
+
+# # Find index
+# print(numbers.index(20))  
+
+# # Count occurrences
+# print(numbers.count(20))
+
+# # Sort ascending
+# numbers.sort()
+
+# # Sort descending
+# numbers.sort(reverse=True)
+
+# # Reverse
+# numbers.reverse()
+
+# # Copy
+# new_numbers = numbers.copy()
+
+
+
+# Built-in functions used with Lists:-
+# These are Python functions, not list methods.
+
+# ==========================================================
+#       Function	                  Purpose
+# ============================================================
+#       len()	                      Number of elements
+#       max()	                      Maximum value
+#       min()	                      Minimum value
+#       sum()	                      Sum of numeric elements
+#       sorted()	                  Returns a new sorted list
+#       any()	                      True if at least one element is truthy
+#       all()	                      True if every element is truthy
+#       list()	                    Creates a list
+#       enumerate()	                Gives index and value
+#       reversed()	                Returns a reverse iterator
