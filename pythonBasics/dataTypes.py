@@ -228,9 +228,19 @@ practice questions:-
 
 # Rest of things are same as in list for example use built-in fuctions with tuple.
 
+# # TUPLE PACKING AND UNPACKINGL:-
 
+# # Packing:- Putting multiple values into a tuple.
 
+# data="Hamza",25,"Python"
+# print(data)
 
+# # Note:- Python  automatically creates tuple.
+
+# # Unpacking:-assigning tuple values to seperate variables.
+# data="Hamza",25,"Python"
+# name,age,course=data
+# print(name)
 
 
 
