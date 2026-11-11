@@ -185,14 +185,54 @@ practice questions:-
 3. Create a list of squares from 1 to 10 using list comprehension.
 4. Create a list of only odd numbers from 1 to 20 using list comprehension.
 '''
-# ANSWERS
-student=[
-  [50,30,40],[90,50,0],[58,11,45]
-]
-print(student[1])
+# # ANSWERS
+# student=[
+#   [50,30,40],[90,50,0],[58,11,45]
+# ]
+# print(student[1])
 
-squares=[i**2 for i in range(1,10)]
-print(squares)
+# squares=[i**2 for i in range(1,10)]
+# print(squares)
 
-odd=[i for i in range(1,20) if i%2!=0]
-print(odd)
+# odd=[i for i in range(1,20) if i%2!=0]
+# print(odd)
+
+
+
+# =================================================================================
+#                                     TUPLES
+# =================================================================================
+
+# A Tuple is a collection used to store multiple values in a single variable, just like a List.
+# The main difference is:
+# - List: Mutable (we can modify elements).
+# - Tuple: Immutable (we cannot modify existing elements). 
+
+
+# # Indexing:- means accessing data.
+# fruits=("apple","banana","grapes")
+# print(fruits[0])
+# print(fruits[-1])
+# print(type(fruits))
+
+# # Slicing:-
+# fruits=("apple","banana","grapes","mango","cherry")
+# print(fruits[1:2])
+# print(fruits[::2])
+# print(fruits[3:])
+
+# # Updating Tuple:- it ill return an error (AttributeError: 'tuple' object has no attribute 'append') because tuple is immutable.
+# fruits=("apple","banana","grapes","mango","cherry")
+# fruits.append("hehe")
+# print(fruits)
+
+# Rest of things are same as in list for example use built-in fuctions with tuple.
+
+
+
+
+
+
+
+
+
