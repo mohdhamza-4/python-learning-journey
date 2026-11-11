@@ -124,3 +124,75 @@
 #       list()	                    Creates a list
 #       enumerate()	                Gives index and value
 #       reversed()	                Returns a reverse iterator
+'''
+practice questions
+
+Your next coding task: Create a list of 5 numbers and write Python code to:
+1. Print the total of all numbers.
+2. Find the largest number.
+3. Find the smallest number.
+4. Sort the list in descending order.
+5. Remove the last element.
+'''
+
+# nums=[40,20,30,50,60]
+
+# # Anwer:1
+# print(max(nums[1:4]))
+
+# # Anwer:2
+# print(min(nums))
+
+# # Anwer:3
+# print(sorted(nums,reverse=True))
+
+# # Anwer:4
+# print(nums.pop())
+
+# # Anwer:5
+# print(nums)
+
+
+# # LIST COMPREHENSION:- List comprehension is a shorter way to create a list using existing iterble.
+
+# # List comprehension with for loop :-
+
+# # normal Approach:-
+# squares=[]
+# for i in range(1,5):
+#   squares.append(i**2)
+# print(squares)
+
+# # using List comprehension:-
+# even=[i**2 for i in range(1,6)]
+# print(even)
+
+# # List comprehension with condition:-
+# even=[]
+# for i in range(100):
+#   if i%2==0:
+#     even.append(i)
+# print(even)
+
+# # using List comprehension:-
+# even=[i for i in range(100) if i%2==0]
+# print(even)
+
+'''
+practice questions:-
+1. Create a nested list containing 3 students and their marks.
+2. Print the marks of the second student.
+3. Create a list of squares from 1 to 10 using list comprehension.
+4. Create a list of only odd numbers from 1 to 20 using list comprehension.
+'''
+# ANSWERS
+student=[
+  [50,30,40],[90,50,0],[58,11,45]
+]
+print(student[1])
+
+squares=[i**2 for i in range(1,10)]
+print(squares)
+
+odd=[i for i in range(1,20) if i%2!=0]
+print(odd)
