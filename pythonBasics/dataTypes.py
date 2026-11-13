@@ -246,16 +246,28 @@ practice questions:-
 #                                         SET
 # ======================================================================================
 
-# A Set is a collection used to store multiple values, but it does not allow duplicate elements.
+# # A Set is a collection used to store multiple values, but it does not allow duplicate elements.
 
-numbers = {10, 20, 30, 20, 40, 10}
-print("numbers")
+# numbers = {10, 20, 30, 20, 40, 10}
+# print("numbers")
 
-# - 10 appeared twice, but Python kept it once.
-# - 20 appeared twice, but Python kept it once.
-# Important characteristics:
-# 1. Sets don't allow duplicate values.
-# 2. Sets are unordered.
-# 3. Sets are mutable.
-# 4. Sets don't support indexing or slicing.
-# 5. Sets can contain different data types, but their elements must be hashable.
+# # - 10 appeared twice, but Python kept it once.
+# # - 20 appeared twice, but Python kept it once.
+# # Important characteristics:
+# # 1. Sets don't allow duplicate values.
+# # 2. Sets are unordered.
+# # 3. Sets are mutable.
+# # 4. Sets don't support indexing or slicing.
+# # 5. Sets can contain different data types, but their elements must be hashable.
+
+
+# CREATING a SET:-
+fruits={"banana","apple","mango"}
+print(fruits)
+print(type(fruits))
+
+# Empty set:-
+a={}
+b=set()
+print(type(a))
+print(type(b))
